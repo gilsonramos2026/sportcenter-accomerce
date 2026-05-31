@@ -1,0 +1,11 @@
+/* 1. Importa a estrutura base do Roboto */
+import '@fontsource/roboto/index.css';
+
+/* 2. Importa o motor do Tailwind v4 e o DaisyUI v5 */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* 3. Configura a fonte dentro do tema do Tailwind v4 */
+@theme {
+  --font-sans: 'Roboto', sans-serif;
+}

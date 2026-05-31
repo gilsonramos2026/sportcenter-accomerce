@@ -1,7 +1,7 @@
 package com.ecommerce.sportscenter.service;
 
+import com.ecommerce.sportscenter.dto.BasketResponse;
 import com.ecommerce.sportscenter.entity.Basket;
-import com.ecommerce.sportscenter.model.BasketResponse;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

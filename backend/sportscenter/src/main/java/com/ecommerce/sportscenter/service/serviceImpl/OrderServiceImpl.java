@@ -33,10 +33,8 @@ import java.util.List;
 public class OrderServiceImpl implements OrderService {
 
     private final OrderRepository orderRepository;
-    private final BrandRepository brandRepository;
-    private final TypeRepository typeRepository;
     private final BasketService basketService;
-    private final OrderMapper orderMapper;
+
 
     @Override
     @Transactional(readOnly = true)
